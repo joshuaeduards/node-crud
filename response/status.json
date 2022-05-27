@@ -1,0 +1,35 @@
+{
+    "authorized": {
+        "message": "Access Granted",
+        "status": 200
+    }, 
+    "unauthorized": {
+        "message": "Access Denied",
+        "status": 401
+    }, 
+    "unauthorized_req": {
+        "message": "Invalid Request",
+        "status": 403
+    }, 
+    "success": {
+        "message": "Success",
+        "status": 200
+    },
+    "success_create": {
+        "message": "Creation Success",
+        "status": 201
+    },
+    "success_delete": {
+        "message": "Deletion Success",
+        "status": 201
+    },
+    "server_error": {
+        "message": "Server Error",
+        "status": 500
+    },
+    "duplicate":{
+        "message": "Duplicate User",
+        "status": 200
+    }
+    
+}

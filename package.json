@@ -1,0 +1,40 @@
+{
+  "name": "node-crud",
+  "version": "1.0.0",
+  "description": "A basic user management system API implementing.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "seed": "node seeders/seed.js",
+    "migrate-auth-up":"node migrations/migration.js run 1653655859038_create_table_auth.js up",
+    "migrate-auth-down":"node migrations/migration.js run 1653655859038_create_table_auth.js down",
+    "migrate-users-up":"node migrations/migration.js run 1653655871510_create_table_user.js up",
+    "migrate-users-down":"node migrations/migration.js run 1653655871510_create_table_user.js down",
+    "test": "mocha"
+  },
+  "keywords": [
+    "user",
+    "management",
+    "api"
+  ],
+  "author": "Joshua Dulatre",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "dompurify": "^2.3.8",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "jsdom": "^19.0.0",
+    "mysql": "^2.18.1",
+    "mysql-migrations": "^1.0.7",
+    "save": "^2.5.0"
+  },
+  "devDependencies": {
+    "mocha": "^10.0.0",
+    "nodemon": "^2.0.16",
+    "should": "^13.2.3",
+    "supertest": "^6.2.3"
+  }
+}
