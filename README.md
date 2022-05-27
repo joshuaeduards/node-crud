@@ -11,7 +11,8 @@ NOTE: creation of auth table should be initiated first since it will be contrain
 5. migrations: 
 - npm run migrate-auth-up
 - npm run migrate-users-up
-*** for table dropping, run the ff:
+
+*for table dropping, run the ff:
 - npm run migrate-auth-down
 - npm run migrate-users-down
 
