@@ -1,3 +1,4 @@
+NODE-CRUD: dev deploy
 1. terminal: run npm install inside app folder for modules installation
 
 2. configure mysql credentials in .env to your localhost
